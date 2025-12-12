@@ -1,0 +1,15 @@
+EMR Configuration
+=================
+Created: Tue, Dec  9, 2025  6:26:22 PM
+
+Cluster ID: j-1GSZNN1AZMPIQ
+Cluster Name: ecommerce-data-pipeline
+Region: us-east-1
+S3 Bucket: s3://ecommerce-eccproject
+
+Data Locations:
+- Raw Data: s3://ecommerce-eccproject/raw-data/amazon-purchases.csv
+- Processed Data: s3://ecommerce-eccproject/processed-data/
+- Scripts: s3://ecommerce-eccproject/scripts/
+- Logs: s3://ecommerce-eccproject/logs/
+- Athena Results: s3://ecommerce-eccproject/athena-results/
