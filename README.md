@@ -26,13 +26,13 @@ This project implements a production-grade e-commerce data platform addressing *
 
 ### OLTP Architecture (Real-Time Transaction Processing)
 
-![OLTP Architecture](./docs/images/oltp-architecture.png)
+![OLTP Architecture](./docs/images/OLTP.png)
 
 *Microservices architecture with Kubernetes horizontal pod autoscaling, Redis caching, and PostgreSQL persistence*
 
 ### OLAP Architecture (Historical Analytics)
 
-![OLAP Architecture](./docs/images/olap-architecture.png)
+![OLAP Architecture](./docs/images/Olap.jpeg)
 
 *Distributed data processing pipeline: PySpark on EMR → S3 Parquet → Athena → Power BI*
 
@@ -67,13 +67,13 @@ This project implements a production-grade e-commerce data platform addressing *
 
 ### React Frontend UI
 
-![Frontend UI](./docs/images/frontend-ui.png)
+![Frontend UI](./docs/images/UI.png)
 
 *Responsive e-commerce interface with 873,263 products, server-side pagination, and sub-200ms page load times*
 
 ### Power BI Analytics Dashboard
 
-![Power BI Dashboard](./docs/images/powerbi-dashboard.png)
+![Power BI Dashboard](./docs/images/PowerBI.png)
 
 *Interactive dashboard showing 2M+ orders, $44.05M revenue, temporal trends, and geographic distribution with sub-second query performance*
 
